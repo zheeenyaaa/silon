@@ -3,7 +3,7 @@ if (document.documentElement.clientWidth < 992) {
 	preloader.style.display = 'none';
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
 	setTimeout(() => {
 		preloader.style.display = 'none';
 	}, 1000)
